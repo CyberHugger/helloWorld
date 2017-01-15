@@ -1,0 +1,115 @@
+2017-01-15 01:20:25,347 - octoprint.server.util.sockjs - INFO - New connection from client: 192.168.1.12
+2017-01-15 01:21:12,692 - octoprint.plugins.softwareupdate - INFO - Saved version cache to disk
+2017-01-15 01:21:21,264 - octoprint.server.util.sockjs - INFO - Client connection closed: 192.168.1.12
+2017-01-15 01:21:48,975 - octoprint.server.util.sockjs - INFO - New connection from client: 192.168.1.12
+2017-01-15 01:21:55,475 - octoprint.plugins.softwareupdate - INFO - Starting update of octoprint to 1.3.0...
+2017-01-15 01:23:01,143 - octoprint.plugins.softwareupdate - INFO - Update of octoprint to 1.3.0 successful!
+2017-01-15 01:23:01,192 - octoprint.plugins.softwareupdate - INFO - Saved version cache to disk
+2017-01-15 01:23:01,198 - octoprint.plugins.softwareupdate - INFO - Restarting...
+2017-01-15 01:23:33,219 - octoprint.server - INFO - Starting OctoPrint 1.3.0.post1+g1014712 (master branch)
+2017-01-15 01:23:33,220 - octoprint.server - INFO - --- Logged during platform initialization: ---
+2017-01-15 01:23:33,070 - octoprint.settings - INFO - Migrated shutdown action to server.commands.systemShutdownCommand
+2017-01-15 01:23:33,071 - octoprint.settings - INFO - Deleting shutdown action from configured system commands, superseeded by server.commands.systemShutdownCommand
+2017-01-15 01:23:33,071 - octoprint.settings - INFO - Deleting reboot action from configured system commands, superseeded by server.commands.systemRestartCommand
+2017-01-15 01:23:33,071 - octoprint.settings - INFO - Deleting restart action from configured system commands, superseeded by server.commands.serverRestartCommand
+2017-01-15 01:23:33,072 - octoprint.settings - INFO - Made a copy of the current config at /home/pi/.octoprint/config.system_command_migration.yaml to allow recovery of manual system command configuration
+2017-01-15 01:23:33,221 - octoprint.server - INFO - ----------------------------------------------
+2017-01-15 01:23:33,294 - octoprint.plugin.core - INFO - Loading plugins from /home/pi/oprint/lib/python2.7/site-packages/OctoPrint-1.3.0.post1_g1014712-py2.7.egg/octoprint/plugins, /home/pi/.octoprint/plugins and installed plugin packages...
+2017-01-15 01:23:34,606 - octoprint.plugin.core - INFO - Found 7 plugin(s) providing 7 mixin implementations, 4 hook handlers
+2017-01-15 01:23:34,631 - octoprint.plugin.core - INFO - Loading plugins from /home/pi/oprint/lib/python2.7/site-packages/OctoPrint-1.3.0.post1_g1014712-py2.7.egg/octoprint/plugins, /home/pi/.octoprint/plugins and installed plugin packages...
+2017-01-15 01:23:34,860 - octoprint.plugin.core - INFO - Found 7 plugin(s) providing 7 mixin implementations, 4 hook handlers
+2017-01-15 01:23:34,866 - octoprint.filemanager.storage - INFO - Initializing the file metadata for /home/pi/.octoprint/uploads...
+2017-01-15 01:23:34,866 - octoprint.filemanager.storage - INFO - ... file metadata for /home/pi/.octoprint/uploads initialized successfully.
+2017-01-15 01:23:34,883 - octoprint.plugins.softwareupdate - INFO - Version cache was created for another version of OctoPrint, not using it
+2017-01-15 01:23:36,542 - octoprint.util.pip - INFO - Using "/home/pi/oprint/bin/python -m pip" as command to invoke pip
+2017-01-15 01:23:38,163 - octoprint.util.pip - INFO - Version of pip is 8.1.1
+2017-01-15 01:23:38,164 - octoprint.util.pip - INFO - pip installs to /home/pi/oprint/lib/python2.7/site-packages, --user flag needed => no, virtual env => yes
+2017-01-15 01:23:38,165 - octoprint.plugin.core - INFO - Initialized 7 plugin implementation(s)
+2017-01-15 01:23:38,170 - octoprint.plugin.core - INFO - 7 plugin(s) registered with the system:
+|  Announcement Plugin (bundled) = /home/pi/oprint/lib/python2.7/site-packages/OctoPrint-1.3.0.post1_g1014712-py2.7.egg/octoprint/plugins/announcements
+|  Core Wizard (bundled) = /home/pi/oprint/lib/python2.7/site-packages/OctoPrint-1.3.0.post1_g1014712-py2.7.egg/octoprint/plugins/corewizard
+|  CuraEngine (<= 15.04) (bundled) = /home/pi/oprint/lib/python2.7/site-packages/OctoPrint-1.3.0.post1_g1014712-py2.7.egg/octoprint/plugins/cura
+|  Discovery (bundled) = /home/pi/oprint/lib/python2.7/site-packages/OctoPrint-1.3.0.post1_g1014712-py2.7.egg/octoprint/plugins/discovery
+|  Plugin Manager (bundled) = /home/pi/oprint/lib/python2.7/site-packages/OctoPrint-1.3.0.post1_g1014712-py2.7.egg/octoprint/plugins/pluginmanager
+|  Software Update (bundled) = /home/pi/oprint/lib/python2.7/site-packages/OctoPrint-1.3.0.post1_g1014712-py2.7.egg/octoprint/plugins/softwareupdate
+|  Virtual Printer (bundled) = /home/pi/oprint/lib/python2.7/site-packages/OctoPrint-1.3.0.post1_g1014712-py2.7.egg/octoprint/plugins/virtual_printer
+2017-01-15 01:23:38,171 - octoprint.filemanager - INFO - Adding backlog items from all storage types to analysis queue...
+2017-01-15 01:23:38,177 - octoprint.filemanager - INFO - Added 0 items from storage type "local" to analysis queue
+2017-01-15 01:23:38,179 - octoprint.server - INFO - Reset webasset folder /home/pi/.octoprint/generated/webassets...
+2017-01-15 01:23:38,188 - octoprint.server - INFO - Reset webasset folder /home/pi/.octoprint/generated/.webassets-cache...
+2017-01-15 01:23:38,405 - octoprint.plugins.discovery - INFO - Registered OctoPrint instance on octopi for _http._tcp
+2017-01-15 01:23:38,416 - octoprint.plugins.discovery - INFO - Registered OctoPrint instance on octopi for _octoprint._tcp
+2017-01-15 01:23:38,419 - octoprint.plugins.discovery - INFO - Registered OctoPrint instance on octopi for SSDP
+2017-01-15 01:23:38,619 - octoprint.plugins.pluginmanager - INFO - Loaded plugin repository data from http://plugins.octoprint.org/plugins.json
+2017-01-15 01:23:38,697 - octoprint.server - INFO - Listening on http://127.0.0.1:5000
+2017-01-15 01:23:38,927 - octoprint.plugins.announcements - INFO - Loaded channel _important from http://octoprint.org/feeds/important.xml in 0.22s
+2017-01-15 01:23:39,357 - octoprint.server - INFO - Preemptively caching / (ui _default) for {'query_string': 'l10n=en', 'path': '/', 'base_url': 'http://octopi.local/'}
+2017-01-15 01:23:54,251 - octoprint.server.util.sockjs - INFO - New connection from client: 192.168.1.12
+2017-01-15 01:23:55,510 - octoprint.plugins.softwareupdate - INFO - Saved version cache to disk
+2017-01-15 01:25:15,059 - octoprint.server.util.sockjs - INFO - Client connection closed: 192.168.1.12
+2017-01-15 01:25:15,648 - octoprint.server.util.sockjs - INFO - New connection from client: 192.168.1.12
+2017-01-15 01:27:06,473 - octoprint.server.api.system - INFO - Performing command for core:reboot: sudo shutdown -r now
+2017-01-15 01:27:06,645 - octoprint.server.util.sockjs - INFO - Client connection closed: 192.168.1.12
+2017-01-15 01:27:06,693 - octoprint.server - INFO - Shutting down...
+2017-01-15 01:27:07,288 - octoprint.events - INFO - Processing shutdown event, this will be our last event
+2017-01-15 01:27:07,289 - octoprint.events - INFO - Event loop shut down
+2017-01-15 01:27:07,296 - octoprint.server - INFO - Goodbye!
+2017-01-15 01:27:13,573 - octoprint.server - INFO - Starting OctoPrint 1.3.0.post1+g1014712 (master branch)
+2017-01-15 01:27:13,704 - octoprint.plugin.core - INFO - Loading plugins from /home/pi/oprint/lib/python2.7/site-packages/OctoPrint-1.3.0.post1_g1014712-py2.7.egg/octoprint/plugins, /home/pi/.octoprint/plugins and installed plugin packages...
+2017-01-15 01:27:15,675 - octoprint.plugin.core - INFO - Found 7 plugin(s) providing 7 mixin implementations, 4 hook handlers
+2017-01-15 01:27:15,720 - octoprint.plugin.core - INFO - Loading plugins from /home/pi/oprint/lib/python2.7/site-packages/OctoPrint-1.3.0.post1_g1014712-py2.7.egg/octoprint/plugins, /home/pi/.octoprint/plugins and installed plugin packages...
+2017-01-15 01:27:15,951 - octoprint.plugin.core - INFO - Found 7 plugin(s) providing 7 mixin implementations, 4 hook handlers
+2017-01-15 01:27:15,957 - octoprint.filemanager.storage - INFO - Initializing the file metadata for /home/pi/.octoprint/uploads...
+2017-01-15 01:27:15,960 - octoprint.filemanager.storage - INFO - ... file metadata for /home/pi/.octoprint/uploads initialized successfully.
+2017-01-15 01:27:15,994 - octoprint.plugins.softwareupdate - INFO - Loaded version cache from disk
+2017-01-15 01:27:17,905 - octoprint.util.pip - INFO - Using "/home/pi/oprint/bin/python -m pip" as command to invoke pip
+2017-01-15 01:27:19,555 - octoprint.util.pip - INFO - Version of pip is 8.1.1
+2017-01-15 01:27:19,556 - octoprint.util.pip - INFO - pip installs to /home/pi/oprint/lib/python2.7/site-packages, --user flag needed => no, virtual env => yes
+2017-01-15 01:27:19,558 - octoprint.plugin.core - INFO - Initialized 7 plugin implementation(s)
+2017-01-15 01:27:19,565 - octoprint.plugin.core - INFO - 7 plugin(s) registered with the system:
+|  Announcement Plugin (bundled) = /home/pi/oprint/lib/python2.7/site-packages/OctoPrint-1.3.0.post1_g1014712-py2.7.egg/octoprint/plugins/announcements
+|  Core Wizard (bundled) = /home/pi/oprint/lib/python2.7/site-packages/OctoPrint-1.3.0.post1_g1014712-py2.7.egg/octoprint/plugins/corewizard
+|  CuraEngine (<= 15.04) (bundled) = /home/pi/oprint/lib/python2.7/site-packages/OctoPrint-1.3.0.post1_g1014712-py2.7.egg/octoprint/plugins/cura
+|  Discovery (bundled) = /home/pi/oprint/lib/python2.7/site-packages/OctoPrint-1.3.0.post1_g1014712-py2.7.egg/octoprint/plugins/discovery
+|  Plugin Manager (bundled) = /home/pi/oprint/lib/python2.7/site-packages/OctoPrint-1.3.0.post1_g1014712-py2.7.egg/octoprint/plugins/pluginmanager
+|  Software Update (bundled) = /home/pi/oprint/lib/python2.7/site-packages/OctoPrint-1.3.0.post1_g1014712-py2.7.egg/octoprint/plugins/softwareupdate
+|  Virtual Printer (bundled) = /home/pi/oprint/lib/python2.7/site-packages/OctoPrint-1.3.0.post1_g1014712-py2.7.egg/octoprint/plugins/virtual_printer
+2017-01-15 01:27:19,567 - octoprint.filemanager - INFO - Adding backlog items from all storage types to analysis queue...
+2017-01-15 01:27:19,581 - octoprint.filemanager - INFO - Added 0 items from storage type "local" to analysis queue
+2017-01-15 01:27:19,588 - octoprint.server - INFO - Reset webasset folder /home/pi/.octoprint/generated/webassets...
+2017-01-15 01:27:19,603 - octoprint.server - INFO - Reset webasset folder /home/pi/.octoprint/generated/.webassets-cache...
+2017-01-15 01:27:20,307 - octoprint.plugins.discovery - INFO - Registered OctoPrint instance on octopi for _http._tcp
+2017-01-15 01:27:20,327 - octoprint.plugins.discovery - INFO - Registered OctoPrint instance on octopi for _octoprint._tcp
+2017-01-15 01:27:20,334 - octoprint.plugins.discovery - INFO - Registered OctoPrint instance on octopi for SSDP
+2017-01-15 01:27:20,383 - octoprint.plugins.pluginmanager - INFO - Loaded plugin repository data from disk, was still valid
+2017-01-15 01:27:20,416 - octoprint.server - INFO - Listening on http://127.0.0.1:5000
+2017-01-15 01:27:20,491 - octoprint.server - INFO - Preemptively caching / (ui _default) for {'query_string': 'l10n=en', 'path': '/', 'base_url': 'http://octopi.local/'}
+2017-01-15 01:27:20,733 - octoprint.server.util.sockjs - INFO - New connection from client: 192.168.1.12
+2017-01-15 01:28:48,858 - octoprint.util.comm - INFO - Printer reports firmware name "Marlin V1; Sprinter/grbl mashup for gen6"
+2017-01-15 01:42:26,684 - octoprint.plugins.cura - INFO - Running u'/usr/local/bin/cura_engine -v -p -s coolHeadLift=0 -s downSkinCount=9 -s enableCombing=2 -s endCode=;End GCode\nM104 S0                     ;extruder heater off\nM140 S0                     ;heated bed heater off (if you have it)\nG91                                    ;relative positioning\nG1 E-1 F300                            ;retract the filament a bit before lifting the nozzle, to release some of the pressure\nG1 Z+0.5 E-5 X-20 Y-20 F9000 ;move Z up a bit and retract filament even more\nG28 X0 Y0                              ;move X/Y to min endstops, so the head is out of the way\nM84                         ;steppers off\nG90                         ;absolute positioning\n;CURA_OCTO_PROFILE_STRING:eNrtWltv2zYUfjX6K/jWFks9SbabtoZf1iV5aYECybA2ayHQEmVxkUiBpOJckP/ej6Rky4m9Zm12aaE8xLDIc+F3zvmoQzOjItYVY2lc0otZGASDkiY5FyxOmDBMxVzHV0zJ2SEtNBvoM65MXLhxWQszO1E1GyhmFE0MlyKmpXs8Hk4GleLCxIaVFVPU1IqNZ8EwGCiamXhONYtNzpMzwbTG89GACwFzOmdF4T1ysyvFjpfcJPnBhVF1ihmLRKZsNvVPyZyZJWOCmJyRpFYKThPWTCVUpG5A4Mnq6R5Z5hBw3nGxINCTk7IuDK8Ktpqlh4+mJznXxFoj+KRpylKYy6RiTunJE/H0kV9NSdWCi9kE/uq6qiQgomJRsNnzZrncQpnRhDnoljw1OVY3Xs3OOBYNkNgsnHTRLLmI8eWcFR7oJa8Am1wChnNZ1KWbn7UhdOGTtdkCo5YFT+OCXmJsDXs4jFbhTlkFp6Jgw75XMA4Gc8XLbtij9Uqv4pRrQ0XCYAnu+BSB57ykRVwwsYDecGK9kOdMFbSK05oWzeRGiX0SO+w17M7m0uQeOWdTVzRBqGYj6LCrzWosLmd8kRuomdzGuJtX0X7j0IJWTr61aC4rNrPa9UAbVukYWRpjCV6ZrptwWcT0LBpUBTUIfRnTNGfORyEFG8BRI8sGWI8WoFmHqSmbDqSJLOd2LUISOCbcepig8wKit4upBXENDFCMBi5bUiY0N5fWXMaVNo0PLrdi+G6kcvngI29kdUe7w7yp1/A5YNQVV7TgV6zxOuMXcS6V4nAuroUrb1i2yMXUq0uktJGgyC2emUbuTuFHuwZG7YDU5v9U5kgB6F1XORNp49Afj6cHMHf0Gl8+irdhMCbHAdn2N135B3ysOpllVmIc7JRwEy3JpB0Z8oRn5FLWJAcPEG6efhRHL0Nyj7+pYshaDingy23MAQSkQ3LwLCSHoyD4grRLFQcDUo6WFnRK5ty0NGhjbrF14Murq4LtESMJzDLwO9GyZFiBGwaPaxQVc+ZPf0LVwokJef8sCsgH++/w2hOdr6IbMi3BFuSU1FVj00a5dWnlDjtHjEvp9EYvyHsoC74AitP7/ucP1lMUGEFsNcpD78Ff56pNZ5sKYNLW+yW9ROhejHdrtRyCrNY+ykcvd3sxpXPUJFh6MyrT60pJrAtsZ5Czi5vHe+Rurp0EfzfdrFDY52ifoz9ajlqhqE/sPrH7xG6ERn019NXwj1TDJ/+ib9vRpofk6D0ngy5OTY935x1/FkWrPs83Ta7DolzZlgwd2roH9Y2x7UFzqmOfgjFScKN98MbQWXPhGqF1k9vpbXLpVA/cS3ucFfQc7dCTAFWtWKVo9fjpX3Y388ainP/JEpjk4sxZyGRRyGXbHa7aJJ8B6IPxiVKJdg2Mdg34k5FNjzSLZcVEjITTbRu5OjpZHyOEEFw6x1ddr+vM0JLbrrdtWo4LntjGxrwi1ym9vLH/DcOHjeQNYv4L1TwhmhlbRvoVeWPjTHyTDRkfdv/1hvwOg5hzvWn4hhwiIHjcbVCt7nc2cMRawmCTII3Zw7Z8sN7Ui3pofGN6U3YeLb31RVcsQefYFbPfrd63IfL+uDGGFOpmJCr6N4E+3ClA6aHns6wGilsKx3iducQi7fQFL1f67qvrrp6jKFxXP9IVkJ/TomZ6o1B31OXbF9G6yFmnAbZ2W4my3a/213yATPD9r+NPKhpmWLPUTibys06DDl+dbpkDHg0nw13M6Ui3OT8hqQUmnJSlXXFEDraw09QeODqpZoUp8cdIztJhhM3iYLR9hyOjsrRMmcE8gXfJ2VeYIXRBufDGNhdkcxlUvDpUKJH1dIGdRZA3r38lOlGMCYt+uE/eNZOGw6F7m+gr8JsrcPwAFegr2b6V3VUVfZ2u4D8nhu+h2k92vCi2R3zG12KEd6uW2L6NIsJgO0WEwQNzhLP27Hr70SpK4SS418rdMe73tvaeH3t+7PnxQfgxuhdLjNSPx4/9ztDvDP3O8J3sDNED7gz9LvOv7zKjezHOGI7/aFzb76/9/trvr7f210+rC1EXl92LXPvNxSF/wckfKXf3UX99S8orFuucs6I9o28uRG1e7btz3j0Lh/sTf4+puRNmL7K1AVhdShps3QJn+8FaY1bIpb3ntHn87y9Uda4o2V8uLPL+jt2to3bYtfv9uf29w6aFvZ7lVvMZnx4q/A==\n -s extrusionWidth=500.0 -s fanFullOnLayerNr=2 -s fanSpeedMax=100 -s fanSpeedMin=100 -s filamentDiameter=1750 -s filamentFlow=100 -s fixHorrible=1 -s gcodeFlavor=0 -s infillOverlap=15 -s infillSpeed=60 -s initialLayerSpeed=20 -s initialLayerThickness=300 -s initialSpeedupLayers=4 -s inset0Speed=60 -s insetCount=2 -s insetXSpeed=60 -s layer0extrusionWidth=500 -s layerThickness=150 -s minimalExtrusionBeforeRetraction=20 -s minimalFeedrate=10 -s minimalLayerTime=5 -s moveSpeed=150 -s multiVolumeOverlap=150 -s objectSink=0 -s postSwitchExtruderCode=;Switch between the current extruder and the next extruder, when printing with multiple extruders.\n;This code is added after the T(n)\n -s posx=40000 -s posy=40000 -s preSwitchExtruderCode=;Switch between the current extruder and the next extruder, when printing with multiple extruders.\n;This code is added before the T(n)\n -s printSpeed=60 -s retractionAmount=4500 -s retractionAmountExtruderSwitch=16500 -s retractionMinimalDistance=1000 -s retractionSpeed=40 -s retractionZHop=200 -s skirtDistance=3000 -s skirtLineCount=1 -s skirtMinLength=150000 -s sparseInfillLineDistance=2500 -s startCode=M109 T0 S225.0\nT0\n;Sliced at: Sun 15-01-2017 01:42:26\n;Basic settings: Layer height: 0.15 Walls: 1 Fill: 20\n;Print time: ?print_time?\n;Filament used: ?filament_amount?m ?filament_weight?g\n;Filament cost: ?filament_cost?\n;M190 S70 ;Uncomment to add your own bed temperature line\n;M109 S225 ;Uncomment to add your own temperature line\nG21        ;metric values\nG90        ;absolute positioning\nM82        ;set extruder to absolute mode\nM107       ;start with the fan off\nG28 X0 Y0  ;move X/Y to min endstops\nG28 Z0     ;move Z to min endstops\nG1 Z15.0 F9000 ;move the platform down 15mm\nG92 E0                  ;zero the extruded length\nG1 F200 E3              ;extrude 3mm of feed stock\nG92 E0                  ;zero the extruded length again\nG1 F9000\n;Put printing message on LCD screen\nM117 Printing...\n -s supportAngle=-1 -s supportEverywhere=0 -s supportExtruder=-1 -s supportLineDistance=3333 -s supportType=1 -s supportXYDistance=700 -s supportZDistance=150 -s upSkinCount=9 -o /tmp/tmpwkdO7L.gco /home/pi/.octoprint/uploads/Test/pikachu_1gen_flowalistik.STL' in /usr/local/bin
+2017-01-15 01:51:15,282 - tornado.access - WARNING - 401 POST /plugin/cura/import (127.0.0.1) 45.90ms
+2017-01-15 01:51:24,012 - tornado.access - WARNING - 401 POST /plugin/cura/import (127.0.0.1) 27.55ms
+2017-01-15 01:51:44,014 - tornado.access - WARNING - 401 POST /plugin/cura/import (127.0.0.1) 40.43ms
+2017-01-15 01:52:18,306 - tornado.access - WARNING - 401 POST /plugin/cura/import (127.0.0.1) 27.96ms
+2017-01-15 01:56:17,139 - octoprint.filemanager.analysis - INFO - Starting analysis of local:Test/pikachu_1gen_flowalistik.gcode
+2017-01-15 01:56:22,294 - octoprint.events - ERROR - Got an exception while sending event MetadataAnalysisFinished (Payload: {'origin': 'local', 'path': u'Test/pikachu_1gen_flowalistik.gcode', 'name': u'pikachu_1gen_flowalistik.gcode', 'file': u'Test/pikachu_1gen_flowalistik.gcode', 'result': {'estimatedPrintTime': 4392.416404835166, 'printingArea': {'maxZ': 58.86, 'minX': 25.027, 'maxX': 75.0, 'maxY': 63.381, 'minY': 0.0, 'minZ': 0.2}, 'dimensions': {'width': 49.973, 'depth': 63.381, 'height': 58.66}, 'filament': {'tool0': {'volume': 0.0, 'length': 2090.122700000024}}}}) to <bound method Printer._on_event_MetadataAnalysisFinished of <octoprint.printer.standard.Printer object at 0x757ab710>>
+Traceback (most recent call last):
+  File "/home/pi/oprint/local/lib/python2.7/site-packages/OctoPrint-1.3.0.post1_g1014712-py2.7.egg/octoprint/events.py", line 151, in _work
+    listener(event, payload)
+  File "/home/pi/oprint/local/lib/python2.7/site-packages/OctoPrint-1.3.0.post1_g1014712-py2.7.egg/octoprint/printer/standard.py", line 161, in _on_event_MetadataAnalysisFinished
+    self._selectedFile["sd"])
+  File "/home/pi/oprint/local/lib/python2.7/site-packages/OctoPrint-1.3.0.post1_g1014712-py2.7.egg/octoprint/printer/standard.py", line 888, in _setJobData
+    date = int(os.stat(path_on_disk).st_mtime)
+OSError: [Errno 2] No such file or directory: '/home/pi/.octoprint/uploads/Test/pikachu_1gen_flowalistik.gco'
+2017-01-15 02:00:55,976 - octoprint.server.util.sockjs - INFO - New connection from client: 192.168.1.8
+2017-01-15 02:13:33,366 - octoprint.server.util.sockjs - INFO - Client connection closed: 192.168.1.8
+2017-01-15 02:26:49,630 - octoprint.server.util.sockjs - INFO - New connection from client: 192.168.1.8
+2017-01-15 02:31:59,249 - octoprint.server.util.sockjs - INFO - Client connection closed: 192.168.1.8
+2017-01-15 02:52:46,386 - octoprint.server.util.sockjs - INFO - New connection from client: 192.168.1.8
+2017-01-15 03:00:17,431 - octoprint.server.util.sockjs - INFO - Client connection closed: 192.168.1.8
+2017-01-15 03:00:17,432 - octoprint.server.util.sockjs - WARNING - Could not send message to client 192.168.1.8: object of type 'NoneType' has no len()
+2017-01-15 03:09:21,603 - octoprint.server.util.sockjs - INFO - New connection from client: 192.168.1.8
+2017-01-15 03:14:32,909 - octoprint.server.util.sockjs - INFO - Client connection closed: 192.168.1.8
+2017-01-15 03:21:39,600 - octoprint.server.util.sockjs - INFO - New connection from client: 192.168.1.8
+2017-01-15 03:22:39,357 - octoprint.util.comm - INFO - Finished in 5172.615 s.
+2017-01-15 03:27:05,604 - octoprint.server.util.sockjs - INFO - Client connection closed: 192.168.1.8
